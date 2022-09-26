@@ -1,0 +1,87 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forca-botao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forca img {
+    width: 400px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.escolherPalavra {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    margin-top: 50px;
+    background-color: rgb(83, 194, 120);
+}
+
+.alfabeto {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.teclado button {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid  rgb(80, 80, 156);
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(167, 240, 240);
+    color: rgb(80, 80, 156);
+    
+}
+
+.input{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.input p{
+    margin-right: 15px;
+}
+.input input{
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 300px;
+    height: 30px;
+}
+.input button{
+    font-family: 'Roboto', sans-serif;
+    width: 70px;
+    height: 40px;
+}
+
+.corInicial{
+    color: #9FAAB5;
+    width: 100px;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+.corVermelho{
+    width: 100px;
+    font-size: 40px;
+    margin-top: 300px;
+    color:rgb(209, 27, 27);
+}
+.corVerde{
+    width: 100px;
+    font-size: 40px;
+    margin-top: 300px;
+    color: rgb(35, 153, 35);
+}
